@@ -3,7 +3,6 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
 }
 
 .navigation-section {
@@ -180,7 +179,6 @@ body {
     object-fit: cover;
 }
 
-
 /* ABOUT SECTION */
 .about-section{
     margin-top: 60px;
@@ -287,10 +285,6 @@ body {
     margin-bottom: -2rem;
 }
 
-/* *{
-    border: 1px solid red;
-} */
-
 .mi{
     display: grid;
     place-items: center;
@@ -335,6 +329,7 @@ body {
     width: 90%;
     justify-content: center;
     gap: 1rem;
+    overflow-x: hidden;
 }
 
 .service img{
@@ -347,7 +342,6 @@ body {
     width: 100%;
     background-color: #00BABC;
 }
-
 
 /* TEAM SECTION */
 .team-section{
@@ -504,4 +498,30 @@ footer {
 .social-icons i {
     width: 24px;
     height: 24px;
+}
+
+.member-h{
+
+}
+
+.bg-c{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #00BABC;
+}
+
+.bg-c img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.name-pic{
+    text-align: center;
+    font-weight: bolder;
+    color: #FE6263;
 }
