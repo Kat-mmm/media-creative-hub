@@ -272,9 +272,7 @@ body {
 .vision{
     display: grid;
     place-items: center;
-    gap: 10px;
     background-color: #FE6263;
-    height: fit-content;
     height: 280px;
     padding-bottom: 1rem;
 }
@@ -294,7 +292,12 @@ body {
 .vision p, .mission p{
     width: 70%;
     margin: 0;
+    margin-bottom: -10px;
 }
+/* 
+*{
+    border: 1px solid red;
+} */
 
 .vision p, .mission p, .vision img, .mission img, .vision h6, .mission h6{
     margin: 0;
@@ -303,9 +306,7 @@ body {
 .mission{
     display: grid;
     place-items: center;
-    gap: 0;
     background-color: #ffd6c9;
-    height: fit-content;
     height: 280px;
     padding-bottom: 1rem;
 }
@@ -437,6 +438,32 @@ body {
         margin-bottom: 2rem;
         justify-self: center;
     }
+
+    .vision{
+        padding-top: 2rem;
+    }
+
+    .mission{
+        padding-top: 1rem;
+    }
+
+    .mi{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+.mi{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.mi h6{
+    align-self: flex-end;
 }
 
 /* FOOTER SECTION */
